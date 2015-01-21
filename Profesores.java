@@ -56,9 +56,9 @@ public class Profesores extends Escuela{
 
 
 		@Override
-			public void imprimirprofe()
+			public void imprimir()
 			 {
-			 super.imprimirprofe();
+			 super.imprimir();
 			 System.out.print("\n\n--- Profesor: ");
 			 System.out.println("Nombre del profesor: " + getNombreProfe());
 			 System.out.println("Id del profesor: " + getIdProfe());

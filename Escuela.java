@@ -63,6 +63,12 @@ public class Escuela {
 	 		direccionEscuela = direccionEscuela1;
 		}
 
+		public void imprimir() {
+			System.out.print("--- Escuela: ");
+	        System.out.print("\nDireccionEscuela: " + getDireccionEscuela());
+	        System.out.print("\nTipo: " + getTipoEscuela());
+	        System.out.print("\nNombre: " + getNombreEscuela());
+	    }
 
 
 

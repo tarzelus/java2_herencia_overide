@@ -51,12 +51,12 @@ public class Alumnos extends Escuela
 		}
 
 		@Override
-		public void imprimiralumno()
+		public void imprimir()
 		{
-		super.imprimiralumno();
+		super.imprimir();
 	    System.out.print("\n\n--- Alumno: ");
 		System.out.println("Nombre del alumno: " + getNombreAlumno());
-		System.out.println("cursando: " + setCursoAlumno());
+		System.out.println("cursando: " + getCursoAlumno());
 		System.out.println("Id alumno: " + getIdAlumno());
 		System.out.println("Dni del alumno: " + getDniAlumno());
 		}
